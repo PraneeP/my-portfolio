@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -51,7 +52,7 @@ const About = () => {
               </div>
               <div className="pl-2 border-l-2 border-slate-100">
                 <h4 className="text-base font-bold text-slate-700">
-                  Bachelor of Science in Information and Communication Technology
+                  Bachelor of Technology in Information and Communication Technology
                 </h4>
                 <p className="text-sm text-slate-500 mb-2">
                   Phranakhon Rajabhat University • 2022 - 2024

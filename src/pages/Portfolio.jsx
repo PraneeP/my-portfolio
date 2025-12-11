@@ -1,7 +1,8 @@
+import React from 'react';
 import DeviceMockup from '../components/DeviceMockup';
 import { projects } from '../data';
 
-// ✨ Component กราฟิกวิบวับ (เก็บไว้ใช้ตรงหัวข้อ)
+// ✨ Component กราฟิกวิบวับ
 const Sparkle = ({ className }) => (
   <svg 
     className={`absolute pointer-events-none ${className}`} 
@@ -22,7 +23,7 @@ const Portfolio = () => {
         
         {/* Header Section */}
         <div className="text-center mb-24 space-y-4">
-           {/* ⭐ แก้ไขตรงนี้: เปลี่ยน text-slate-900 เป็น Gradient Class ⭐ */}
+           {/* แก้ไขตรงนี้: เปลี่ยน text-slate-900 เป็น Gradient Class */}
            <h2 className="text-5xl md:text-7xl font-bold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-600 relative inline-block">
              Featured Projects
              <Sparkle className="text-teal-400 w-8 h-8 -top-6 -right-8 animate-bounce" />

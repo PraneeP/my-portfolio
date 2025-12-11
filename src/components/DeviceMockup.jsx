@@ -1,4 +1,5 @@
-// src/components/DeviceMockup.jsx
+import React from 'react';
+
 const DeviceMockup = ({ desktopImg, mobileImg }) => {
   // ถ้าเป็น null หรือว่าง จะเป็น false
   const hasMobile = Boolean(mobileImg);
